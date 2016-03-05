@@ -1,0 +1,7 @@
+{
+  "template": "rails",
+  "ports": [9000],
+  "scripts": {
+    "postclone": "sudo service postgresql start && cd ~/code/hack-example && bundle && rake db:migrate"
+  }
+}
